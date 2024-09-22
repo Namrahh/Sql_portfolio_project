@@ -1,0 +1,6 @@
+Customer ID,Contract Type,Avg Monthly Charges,Customer Status,Age,Gender,Tenure in Months,Internet Type,Avg Monthly GB Download,Streaming TV,Streaming Movies,Streaming Music
+8199-ZLLSA,One Year,118.35,Churned,53,Male,67,Fiber Optic,27,Yes,Yes,Yes
+2889-FPWRM,One Year,117.8,Churned,31,Male,72,Fiber Optic,8,Yes,Yes,Yes
+2302-ANTDP,Month-to-Month,117.45,Churned,76,Female,48,Fiber Optic,5,Yes,Yes,No
+9053-JZFKV,Two Year,116.2,Churned,25,Male,67,Fiber Optic,71,Yes,Yes,Yes
+1444-VVSGW,One Year,115.65,Churned,51,Male,70,Fiber Optic,20,Yes,Yes,Yes
