@@ -1,30 +1,45 @@
-# IBM Telco Customer Churn Analysis
+# IBM Telco Services Customer churn analysis
+
 ## Overview
-Analyzed customer churn data for IBM's telecommunications sector.
-Aimed to identify key factors contributing to customer churn and develop actionable insights for retention strategies.
-## Project Structure
-data/: Contains datasets used for analysis.
-sql/: SQL files with queries used for data extraction and manipulation.
-results/: Summary reports and visualizations generated from the analysis.
-README.md: Documentation of the project.
-## Dataset
-Contains customer attributes and churn-related information, including:
-Customer ID
-Contract Type
-Monthly Charge
-Churn Label
-Age and Gender
-Tenure in Months
-Internet Type
-Streaming Service Subscriptions
-## Key Queries
-Churned Customers: Identifies the top churned customers by monthly charges.
-Churn Reasons: Analyzes reasons for customer churn and calculates their frequency.
-Payment Methods: Examines the impact of different payment methods on churn rates.
-## Insights
-Highlights high-spending churned customers and their demographics.
-Provides a breakdown of churn reasons to inform retention strategies.
-Analyzes how payment methods correlate with customer loyalty and churn.
-## Tools Used
-MySQL: Database management system for handling the dataset.
-Excel : For visualisation
+This repository contains an analysis of customer churn within IBM's telecommunications services. The goal is to identify key factors driving churn and develop actionable retention strategies. The insights aim to improve customer loyalty and enhance profitability.
+
+## Objectives
+Identify Churn Drivers: Understand why customers leave and which specific issues contribute to their dissatisfaction.
+Enhance Retention Strategies: Develop targeted strategies based on customer feedback and behavior.
+Profile Churned Customers: Analyze demographics and usage patterns of high-spending churned customers.
+
+## Key Findings
+
+**1. Customer Demographics**
+High-spending churned customers (average monthly charges exceeding $117) primarily consist of males aged 25 to 76.
+Long-tenured customers (67-72 months) are crucial for tailored retention strategies.
+
+**2. Customer Feedback**
+Top Churn Reasons:
+16.75% left for better devices from competitors.
+16.64% were attracted by superior offers.
+Customer service interactions were often cited as unsatisfactory.
+
+**3. Payment Methods**
+Churn Rates by Payment Method:
+Mailed checks: 36.88%
+Bank withdrawals: 34%
+Credit cards: 14.48%
+This suggests simplifying payment processes may reduce churn.
+
+**4. Personalized Retention Strategies**
+Develop tailored offers for high-spending customers.
+Emphasize unique benefits of IBM services, such as exceptional customer support.
+Ensure all customer interactions are positive to rebuild trust.
+
+## Data Analysis Tools
+This analysis utilized MySQL for managing and querying customer churn data, enabling a detailed understanding of customer behavior and churn factors. Key capabilities included:
+
+Extracting demographic information.
+Analyzing payment methods.
+Identifying patterns in churn reasons.
+Conclusion
+The insights derived from this analysis will guide ongoing efforts to mitigate customer churn. By focusing on customer demographics, feedback, payment methods, and personalized strategies, IBM can significantly enhance customer satisfaction and long-term loyalty.
+
+## How to Contribute
+Feel free to fork this repository, submit issues, or propose changes that can enhance the analysis and retention strategies.
